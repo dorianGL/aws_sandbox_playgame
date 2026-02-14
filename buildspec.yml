@@ -3,9 +3,12 @@ phases:
   install:
     commands:
       - java -version
+      - mvn clean install
   build:
     commands:
-      - zip function.zip com.aws.dodo.UserLambdaHandler
+      - cp target/*.zip function.jar
+      - zip function.zip function.jar
+
 artifacts:
   files:
     - function.zip
