@@ -1,5 +1,8 @@
 version: 0.2
 phases:
+  install:
+    commands:
+      - java -version
   build:
     commands:
       - zip function.zip com.aws.dodo.UserLambdaHandler
