@@ -4,11 +4,6 @@ phases:
     commands:
       - java -version
       - mvn clean install
-#  build:
-#    commands:
-#      - cp target/*.zip function.jar
-#      - zip function.zip function.jar
-
 artifacts:
   files:
     - target/dodo-0.0.1-SNAPSHOT-lambda-package.zip
