@@ -11,4 +11,4 @@ phases:
 
 artifacts:
   files:
-    - target/*.zip
+    - target/dodo-0.0.1-SNAPSHOT-lambda-package.zip
