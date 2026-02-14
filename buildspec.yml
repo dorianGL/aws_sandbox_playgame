@@ -1,0 +1,8 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - zip function.zip com.aws.dodo.UserLambdaHandler
+artifacts:
+  files:
+    - function.zip
