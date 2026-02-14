@@ -4,11 +4,11 @@ phases:
     commands:
       - java -version
       - mvn clean install
-  build:
-    commands:
-      - cp target/*.zip function.jar
-      - zip function.zip function.jar
+#  build:
+#    commands:
+#      - cp target/*.zip function.jar
+#      - zip function.zip function.jar
 
 artifacts:
   files:
-    - function.zip
+    - target/*.zip
